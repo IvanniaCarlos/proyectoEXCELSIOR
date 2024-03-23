@@ -1,0 +1,19 @@
+body {
+    background-image: url(/assets/img/joyeria.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    width: 100vw; /* Ocupa toda la anchura de la ventana */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase !important; /* Convertir texto a mayúsculas */
+    text-align: center !important; /* Alinear texto al centro */
+    color: rgb(0, 0, 0) !important;
+}

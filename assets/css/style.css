@@ -89,4 +89,27 @@ body {
          2px  2px 0 #000;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
 
+footer {
+    background-color: #c48e6938;
+    color: rgb(243, 243, 243);
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 10px;
+    margin-bottom: 7px;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 15px;
+   
+}

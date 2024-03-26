@@ -1,5 +1,123 @@
+<<<<<<< HEAD
 body {
     background-image: url(https://cdn.shopify.com/s/files/1/0284/1112/articles/CADENCIA__ALL_RINGS.jpg);
     background-repeat: no-repeat;
     
 }
+=======
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/img/joyeee.avif); /* Fondo con imagen de joyería */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Fuente genérica */
+}
+
+.box {
+    background-color: rgba(226, 196, 176, 0.644); /* Fondo blanco transparente */
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgb(141, 90, 48);
+    width: 300px; /* Ancho del formulario */
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-bottom: 100px; /* Espacio inferior */
+
+}
+
+.container {
+    text-align: center;
+}
+
+.top-header {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-bottom: 10px;
+}
+
+.input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input::placeholder {
+    color: #999; /* Color del texto de marcador de posición */
+   
+}
+
+.input-password {
+    margin-bottom: 10px;
+}
+
+.submit {
+    padding: 10px 20px;
+    background-color: #e4c195d2; /* Color rosa intenso */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    text-align: right;
+}
+.right label a {
+    color: #856434d2; /* Color rosa intenso */
+}
+
+
+.title {
+    font-family: "Press Start 2P";
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(233, 176, 139, 0.911);
+    margin-bottom: 20px;
+    text-shadow: 
+        -2px -2px 0 #000,  
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #c48e6938;
+    color: rgb(243, 243, 243);
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 10px;
+    margin-bottom: 7px;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 15px;
+   
+}
+>>>>>>> a1a24b868d7540af5ed318a47f52633da4f9d135

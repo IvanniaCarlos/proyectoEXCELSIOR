@@ -2,11 +2,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/assets/img/joyeee.avif); /* Fondo con imagen de joyería */
+    background-image: url(/assets/img/joyeria.jpg);
     background-size: cover;
     background-position: center;
-    font-family: Arial, sans-serif; /* Fuente genérica */
+    font-family: Arial, sans-serif;
+    background-attachment: fixed; /* Fija la imagen de fondo */
 }
+
 
 .box {
     background-color: rgba(226, 196, 176, 0.644); /* Fondo blanco transparente */
@@ -98,7 +100,7 @@ body {
 
 footer {
     background-color: #c48e6938;
-    color: rgb(243, 243, 243);
+    color: rgb(230, 214, 214);
     padding: 10px 0;
     font-size: 14px;
 }

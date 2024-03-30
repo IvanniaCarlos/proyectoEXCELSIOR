@@ -8,119 +8,27 @@ body {
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/assets/img/joyeria.jpg);
+    background-image: url(/assets/img/fondito.png);
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
     background-attachment: fixed; /* Fija la imagen de fondo */
 }
 
-
-.box {
-    background-color: rgba(226, 196, 176, 0.644); /* Fondo blanco transparente */
-    padding: 20px;
-    border-radius: 25px;
-    box-shadow: 0 4px 6px rgb(141, 90, 48);
-    width: 300px; /* Ancho del formulario */
-    margin: 0 auto; /* Centrar horizontalmente */
-    margin-bottom: 100px; /* Espacio inferior */
-
-}
-
-.container {
-    text-align: center;
-}
-
-.top-header {
-    margin-bottom: 20px;
-}
-
-.input-field {
-    margin-bottom: 10px;
-}
-
-.input {
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.input::placeholder {
-    color: #999; /* Color del texto de marcador de posición */
-   
-}
-
-.input-password {
-    margin-bottom: 10px;
-}
-
-.submit {
-    padding: 10px 20px;
-    background-color: #e4c195d2; /* Color rosa intenso */
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 100%;
-}
-
-.bottom {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.left {
-    display: flex;
-    align-items: center;
-}
-
-.right {
-    text-align: right;
-}
-.right label a {
-    color: #856434d2; /* Color rosa intenso */
-}
-
-
-
-.title {
-    font-family: "Press Start 2P";
-    text-transform: uppercase;
-    text-align: center;
-    color: #7a553e;
-    margin-bottom: 20px;
-    font-size: 2.5em;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Aumentar el tamaño de la sombra */
-    padding-top: 20px;
-}
-
-
-
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 15px;
-    text-align: center;
-}
-
-footer {
-    background-color: #c48e6938;
-    color: rgb(230, 214, 214);
-    padding: 10px 0;
-    font-size: 14px;
-}
-
-h2 {
-    font-size: 10px;
-    margin-bottom: 7px;
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #292b2c;
 }
 
 p {
-    margin-bottom: 0;
-    font-size: 15px;
-   
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
 }
 
